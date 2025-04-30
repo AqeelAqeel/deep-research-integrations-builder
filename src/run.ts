@@ -8,6 +8,9 @@ import {
   writeFinalReport,
 } from './deep-research';
 import { generateFeedback } from './feedback';
+import { NotionService } from './integrations/notion/notion';
+import { NotionAuth, saveNotionAuthToEnv } from './integrations/notion';
+import { getNotionAuthViaCLI } from './integrations/pipedream/cli';
 
 // Helper function for consistent logging
 function log(...args: any[]) {
@@ -103,6 +106,56 @@ ${followUpQuestions.map((q: string, i: number) => `Q: ${q}\nA: ${answers[i]}`).j
     await fs.writeFile('report.md', report, 'utf-8');
     console.log(`\n\nFinal Report:\n\n${report}`);
     console.log('\nReport has been saved to report.md');
+
+    // Ask if the user wants to export to Notion
+    const exportToNotion = await askQuestion('\nDo you want to export this report to Notion? (y/n): ');
+    
+    if (exportToNotion.toLowerCase() === 'y') {
+      try {
+        // Check if Notion integration is already configured
+        if (process.env.NOTION_ACCESS_TOKEN && process.env.NOTION_PARENT_PAGE_ID) {
+          console.log('\nUsing existing Notion credentials...');
+          
+          const notionAuth: NotionAuth = {
+            oauth_access_token: process.env.NOTION_ACCESS_TOKEN,
+            workspace_id: process.env.NOTION_WORKSPACE_ID || '',
+            workspace_name: process.env.NOTION_WORKSPACE_NAME || '',
+            workspace_icon: process.env.NOTION_WORKSPACE_ICON || '',
+            bot_id: process.env.NOTION_BOT_ID || '',
+          };
+
+          const notionService = new NotionService(notionAuth);
+
+          await notionService.createPage({
+            parentId: process.env.NOTION_PARENT_PAGE_ID,
+            title: "Research Report: " + initialQuery,
+            content: report
+          });
+          console.log('\nReport has been saved to Notion');
+        } else {
+          console.log('\nNotion integration not configured. Setting up Pipedream Connect...');
+          
+          // Use Pipedream Connect to authenticate with Notion via OAuth
+          const notionAuth = await getNotionAuthViaCLI();
+          
+          // Save the auth to environment variables for future use
+          saveNotionAuthToEnv(notionAuth);
+          
+          const notionService = new NotionService(notionAuth);
+
+          await notionService.createPage({
+            parentId: process.env.NOTION_PARENT_PAGE_ID!,
+            title: "Research Report: " + initialQuery,
+            content: report
+          });
+          console.log('\nReport has been saved to Notion');
+        }
+      } catch (error) {
+        console.error('\nFailed to save report to Notion:', error);
+      }
+    } else {
+      console.log('\nSkipping Notion export.');
+    }
   } else {
     const answer = await writeFinalAnswer({
       prompt: combinedQuery,

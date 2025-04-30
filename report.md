@@ -1,194 +1,132 @@
-# A Comprehensive Analysis of NVIDIA's RTX 5000 Series for Gaming Performance
+## Detailed Report on Water Fasting, Muscle Mass Preservation, and Cognitive Enhancements
 
-This report provides an in-depth technical and comparative analysis of NVIDIA’s new RTX 5000 series GPUs, with a focus on pure gaming performance. It covers architectural innovations, benchmarking results, design optimizations, and market positioning relative to both previous RTX generations and competing products such as AMD’s RX 9000 series. The following sections detail the extensive research conducted, incorporating insights from rigorous benchmarks, innovative engineering strategies, and comparative evaluations.
+### Executive Summary
 
----
-
-## 1. Introduction
-
-The RTX 5000 series marks a significant generational leap for NVIDIA in catering specifically to high-performance gaming. This new lineup targets enthusiasts and professionals alike, delivering improved frame rates, cutting-edge AI upscaling, and state-of-the-art ray tracing capabilities. As a follow-up to prior queries comparing the RTX 5000 series to its predecessors and to AMD's upcoming offerings, this report aggregates all recent findings to offer an exhaustive analysis of its performance benefits.
+In recent years, the mechanisms underlying the effects of water fasting on muscle mass and cognitive function have been increasingly elucidated. Water fasting, defined here as complete abstention from caloric intake, induces a metabolic shift that impacts several key molecular and neuroendocrine pathways. Notably, these adaptations include the transition from glycogenolysis to fatty acid oxidation and ketogenesis, leading to measurable benefits on muscle integrity and cognitive processes. This report explores the underlying biological mechanisms by which water fasting can mitigate muscle loss (and potentially enhance muscle growth when combined with physical activity) and offer neuroprotective effects that support healthy cognitive function. In addition, we compare these outcomes and mechanistic details with intermittent and modified fasting protocols to provide a holistic view on fasting modalities and their differential impacts.
 
 ---
 
-## 2. Architectural Innovations and Design Enhancements
+### 1. Introduction
 
-### 2.1. New Blackwell Architecture
+Water fasting has emerged over the last decade as a potent mitigative strategy not only for weight management but also for its potential impact on muscle physiology and cognitive health. Unlike intermittent or modified fasting protocols, water fasting challenges the organism by entirely eliminating caloric intake, thereby triggering a range of processes that tap into evolutionary conserved pathways designed to preserve essential functions during nutrient scarcity. The focus of this report is twofold:
 
-- **Key Features:**
-  - Integration of 5th Generation Tensor Cores and 4th Generation RT Cores.
-  - Adoption of GDDR7 memory (up to 32GB in flagship models), offering up to 1792 GB/sec bandwidth.
-  - Enhanced AI driven features with DLSS 4's Multi Frame Generation technology that utilizes a novel transformer model and an integrated AI management processor (AMP based on RISC-V).
+- How water fasting influences muscle mass preservation and improvement, particularly in the context of physical activity.
+- The neuroendocrine adjustments that contribute to cognitive enhancements during and after fasting.
 
-### 2.2. Process Node Evolution
-
-- Although the physical node change from TSMC N4 to N4P only provides a ~5% improvement, this modest uplift is compensated with significant architectural tweaks such as:
-  - Increased number of CUDA cores (up to 33% more in some instances compared to the RTX 4090).
-  - Advanced power distribution management via a 30-phase VRM design in flagship models (e.g., the RTX 5090 Founders Edition).
-
-### 2.3. PCB and Cooling Innovations
-
-- **Compact Two-Slot Design:**
-  - Despite increased power envelopes (e.g., RTX 5090’s 575W vs. RTX 4090’s 450W), the engineering team managed to design a dense PCB that maintains a 2-slot footprint.
-
-- **Enhanced Thermal Management:**
-  - Implementation of dual flow-through cooling systems with liquid metal and triple-walled gaskets resulted in peak temperatures stabilized around 72°C (with even the flagship RTX 5090 successfully operating under heavy 4K loads).
-  - Advanced measures like vapor-chambers and premium phase-change thermal pads further ensure that thermal-efficiency is maintained even under high power draw conditions.
-
-- **Acoustic Engineering:**
-  - Despite the higher TDP and increased power consumption (e.g., idle power draw for the RTX 5090 is 46W compared to 28–29W for the RTX 4090), acoustic performance is optimized to around 32.5 dBA at 1 meter via targeted airflow and noise reduction strategies.
+This report consolidates findings from recent mechanistic studies and clinical investigations, offering a nuanced exploration of water fasting’s benefits, pitfalls, and areas for further research.
 
 ---
 
-## 3. Gaming Performance Benchmarks
+### 2. Metabolic and Molecular Mechanisms Underpinning Muscle Mass Preservation
 
-The primary focus being gaming performance, this section incorporates multiple performance metrics and independent benchmarks from both synthetic tests (such as Blender and 3DMark) and popular gaming titles like Resident Evil 4, Horizon Forbidden West, Cyberpunk 2077, and Final Fantasy XVI.
+#### 2.1 The Metabolic Switch and Energy Utilization
 
-### 3.1. Relative Performance Gains Over Previous Generations
+One of the fundamental effects observed in water fasting is the induction of a **metabolic switch**. Within approximately 12 to 36 hours of water fasting, hepatic glycogen stores become depleted, initiating a shift from glucose-based energy production to fatty acid oxidation and ketogenesis. The resultant production of ketone bodies, principally β‐hydroxybutyrate (BHB), plays a critical role in modulating energy metabolism. This metabolic reprogramming has several downstream effects:
 
-- **RTX 5090:**
-  - Delivers roughly 30–35% higher performance than the RTX 4090 in pure 4K, non-ray tracing gaming.
-  - Offers 20–50% improvements in average frame rates across diverse gaming titles.
-  - Demonstrates a 32% improvement in ray tracing performance alongside up to a two-fold increase in performance in specific titles.
-  - Trade-off: Elevated power draw (575W) necessitates scrutinizing efficiency and overall FPS-per-watt metrics.
+- **Reduced Insulin/IGF-1 and mTOR Signaling:** The decrease in circulating insulin lowers the stimulation of the mTOR pathway—a critical regulator of growth and protein synthesis. However, transient early proteolysis is often observed. This is subsequently modulated by adaptive mechanisms that initiate protein sparing, preserving muscle mass despite the fasting state.
+- **Promotion of Autophagy:** The metabolic stress of fasting activates autophagy via upregulation of SIRT3 and PGC1α. This cleansing process helps in removing dysfunctional proteins and organelles, arguably contributing to muscle maintenance and the potential for enhanced recovery, particularly when assisted by physical activity regimes.
 
-- **RTX 5080 and RTX 5070-Ti:**
-  - The RTX 5080 shows about a 15% performance uplift (both in rasterization and in ray tracing tasks) relative to the previous generation’s 4080-Super series.
-  - The RTX 5070-Ti positions itself as a best-value proposition for gamers by delivering approximately 20% higher performance than the older 4070-Ti-Super at a lower price point ($749.99) while boasting 16GB VRAM, making it particularly effective for high-resolution gaming.
+#### 2.2 Adaptive Mechanisms Addressing Muscle Loss
 
-### 3.2. Technical Specifications and Numbers
+Despite the initial proteolysis that might theoretically compromise muscle integrity, adaptive mechanisms are activated to preserve muscle mass: 
 
-Table below summarizes the key specifications and performance benchmarks for representative models in the series:
+- **Protein-Sparing Responses:** The transient phase of proteolysis is followed by adaptations that shift toward a protein-sparing state. This is paramount when water fasting is combined with low-intensity or even specific resistance training protocols.
+- **Hormonal Adjustments:** Reductions in anabolic signals (e.g., insulin/IGF-1) occur in tandem with the metabolic benefits of fasting. The transient protein degradation is counterbalanced by hormone fluctuations that favor repair and maintenance of muscle tissue, potentially preparing the muscle for hypertrophic stimuli once feeding resumes or when combined with exercise.
 
-| Model           | CUDA Cores | Boost Clock (GHz) | TGP (W) | Memory Configuration & Bandwidth                 | Performance Gains vs. Predecessor       |
-|-----------------|------------|-------------------|---------|--------------------------------------------------|-----------------------------------------|
-| RTX 5090        | 21,760+    | Higher (e.g., ~2.62 GHz similar or above) | 575     | 32GB GDDR7, 512-bit, up to 1792 GB/sec           | ~30–35% (raster), 27–35% (RT), significant DLSS gains |
-| RTX 5080        | 10,752     | 2.62              | 360     | High-bandwidth GDDR7                              | Roughly 15–20% higher FPS in 4K gaming    |
-| RTX 5070-Ti     | 8,960      | 2.45              | 300     | 16GB VRAM, GDDR7                                 | ~20% gain over 4070-Ti-Super              |
-
-These improvements are driven by higher core counts, enhanced architectural features, and tailored driver optimizations that have addressed frametime issues previously seen in titles like Alan Wake 2.
+These adaptations indicate that when carefully managed, water fasting might not only preserve muscle mass but can prime the body for effective muscle maintenance and improvement over time.
 
 ---
 
-## 4. AI and Upscaling Technologies
+### 3. Neuroendocrine Mechanisms and Cognitive Enhancements
 
-### 4.1. DLSS 4 Multi Frame Generation
+#### 3.1 Upregulation of Neurotrophic Factors
 
-- **Revolutionizing Frame Rates:**
-  - DLSS 4 leverages a transformer-based model combined with the inbuilt RISC-V based AMP to deliver enhanced multi-frame generation.
-  - This technology can boost performance by up to 40% in demanding, ray-traced scenes and even multiply frame rates by as much as 8X compared to traditional rendering methods.
+At the neuroendocrine level, water fasting induces significant changes that are central to cognitive function. Key among these is the upregulation of neurotrophic factors such as Brain-Derived Neurotrophic Factor (BDNF) and Fibroblast Growth Factor-2 (FGF2).
 
-### 4.2. NVIDIA Reflex 2
+- **Histone Deacetylase Inhibition and NF-κB Pathways:** Water fasting appears to promote neurogenesis and enhance synaptic plasticity through epigenetic modifications such as histone deacetylase inhibition. The activation of NF-κB has also been implicated in this process, suggesting an increase in the expression of genes responsible for neuroplasticity.
+- **Enhanced Cognitive Function:** The increases in BDNF and FGF2 not only have protective effects against neurodegeneration but also support optimal cognitive performance. Improvement in synaptic functionality and plasticity can contribute to better memory formation, learning, and overall neuroprotection.
 
-- **Latency Reduction:**
-  - NVIDIA Reflex 2 technology slashes input latency by up to 75%, ensuring a smoother and more responsive gaming experience, particularly in competitive gaming scenarios.
+#### 3.2 Stress Resistance and Mood Regulation
 
-### 4.3. Integration with AI-Driven Content Creation
-
-- While the primary focus here is gaming, it is important to note that these AI enhancements also accelerate creative workloads, making the RTX 5000 series a versatile choice for AI research and content production.
+Additionally, water fasting induces adaptations that align with improved stress resistance. The metabolic switch to ketone body utilization has been associated with subjective improvements in mood and energy regulation. Moreover, the interplay between insulin, leptin, and circadian clock gene expression contributes to a complex neuroendocrine cascade that aids in stabilizing mood and reducing chronic low-grade inflammation—a common underlying factor in cognitive decline.
 
 ---
 
-## 5. Power Efficiency and Thermal Performance Considerations
+### 4. Comparative Analysis: Water Fasting vs. Intermittent/Modified Fasting
 
-### 5.1. Power Consumption Trade-offs
+#### 4.1 Differences in Caloric Intake and Metabolic Response
 
-- The series, particularly the RTX 5090, sees significant increases in power draw (e.g., idle and load differences such as 46W idle power compared to 29W for the RTX 4090). The increase in power is justified by the raw performance gains but does come with questions regarding overall efficiency, especially in FPS-per-watt metrics.
+Water fasting (0 kcal intake) presents a fundamentally distinct metabolic challenge compared to modified or intermittent fasting protocols:
 
-### 5.2. Thermal Efficiency Advances
+- **Water Fasting:** The complete absence of caloric intake emphasizes the switch to ketogenesis and fosters a pronounced activation of autophagy pathways. However, this modality may be associated with greater subjective mental fatigue, particularly in the absence of any exogenous caloric input.
+- **Modified Fasting Protocols:** Studies, including acute randomized cross‐over trials involving modified regimes (e.g., a liquid meal replacement protocol delivering ~512-522 kcal), indicate maintenance of higher blood glucose levels that in turn contribute to lower hunger, reduced food cravings, and reduced subjective mental fatigue. This benefit has direct implications for cognitive task performance, correlating with stable performance in tasks such as sustained attention and inhibitory control.
 
-- **Innovative Cooling Techniques:** As outlined earlier, advanced cooling methods are crucial for stable performance at high power loads. The full flow-through cooling system ensures that despite the high TDP (up to 575W for the RTX 5090), steady-state operational temperatures remain near 72–77°C.
+#### 4.2 Impact on Muscle Physiology and Cognitive Outcomes
 
-- **Memory Thermal Characteristics:** Although the GPU core temperatures are well-managed, memory temperatures can occasionally peak up to 89–90°C under strenuous gaming loads, prompting further investigation into long-term memory reliability under prolonged usage conditions.
-
----
-
-## 6. Comparative Analysis with Predecessor and Competitor Products
-
-### 6.1. Comparisons with Previous RTX Series Models
-
-- **RTX 5000 vs. RTX 4000 Series:**
-  - The RTX 5000 series shows a marked performance uplift across the board. For instance, while the RTX 5090 pushes around 30–35% performance improvements, the RTX 5080 and 5070-Ti deliver gains of 15% and 20% over the 4080-Super and 4070-Ti-Super, respectively.
-  - The driver optimizations and thermal management technologies in the RTX 5000 series have also resolved issues seen in earlier generations (such as inconsistencies in frametime performance in certain titles).
-
-### 6.2. Competitive Dynamics with AMD’s RX 9000 Series
-
-- **AMD’s Positioning:**
-  - Although AMD is rumored to be withdrawing from the ultra-high-end market, the RX 9000 series, exemplified by the RX 9070XT (with 16GB of VRAM), shows competitive pressure. Leaked 3DMark numbers indicate performance figures close to the RTX 5070 series, emphasizing raw performance metrics in 4K gaming.
-  - Differences in memory configuration (GDDR6 for AMD vs. GDDR7 for NVIDIA) and architectural paradigms (RDNA 4 vs. Blackwell) make efficiency and performance trade-offs a key battleground.
-
-- **Strategic Considerations:**
-  - NVIDIA’s aggressive product segmentation, with pricing ranging from about $549 for lower-end models (e.g., RTX 5060) to nearly $2,000 for flagship variants (RTX 5090 Founders Edition), contrasts with AMD’s mid-range focus. This segmentation not only influences immediate gaming performance metrics but also longer-term upgrade cycles and market dynamics.
+- **Muscle Physiology:** Clinical investigations have shown that water fasting coupled with low-intensity exercise can result in significant reductions in metabolic risk factors such as blood pressure, triglycerides, and insulin levels while preserving or even enhancing weight-bearing muscle strength. This implies that the metabolic adaptations under fasting can be reined in positively with appropriate physical activity.
+- **Cognitive Outcomes:** While objective measures of cognitive performance (e.g., sustained attention, serial subtraction) often remain largely stable in the short term, the neuroendocrine adaptations under water fasting suggest a potential for longer-term cognitive benefits. In contrast, modified fasting protocols might provide advantages by mitigating subjective feelings of hunger and fatigue, potentially enabling individuals to better engage in cognitive tasks during fasting periods.
 
 ---
 
-## 7. Market Impact, Value Trade-offs, and Future Outlook
+### 5. Clinical Perspectives and Evidence Base
 
-### 7.1. Pricing Dynamics and Consumer Sentiment
+#### 5.1 Review of Controlled Studies
 
-- **Premium Pricing Concerns:**
-  - The RTX 5090 is priced around $1,999.99 compared to the RTX 4090 at $1,599.99. Although this represents a 25% higher price point, the performance boost (around 30–35%) may justify the extra cost for gamers demanding uncompromised 4K and ray-traced performance.
+Clinical studies have provided insightful data regarding the dual benefits of water fasting. For instance, controlled studies involving healthy men undergoing 10-day water-only fasts with supervised low-intensity exercise regimens have demonstrated that water fasting yields significant reductions in metabolic risk factors. Such studies report improvements in body composition as well as maintenance of muscle strength and increased neuromuscular efficiency.
 
-- **Value Proposition of the RTX 5070-Ti:**
-  - At approximately $749.99 with 16GB VRAM, the RTX 5070-Ti emerges as a clear best-value option for high-resolution gaming. Its competitive pricing relative to its performance makes it attractive for gamers who balance performance with cost efficiency.
+In contrast, short-term studies in overweight females comparing true water fasting with modified fasting regimes highlight that while objective cognitive tests may not show marked differences across fasting modalities, there is a perceptible improvement in subjective mental clarity and reduced cognitive fatigue in modified regimens. These findings emphasize the balance between the acute metabolic benefits of rigorous fasting and the pragmatic need to sustain cognitive and physical performance during fasting.
 
-- **Consumer Debates:**
-  - Forum discussions and expert reviews reveal a divided community, with some criticisms over aggressive segmentation and high flagship pricing, while others commend the tailored use cases such as AI-enhanced gaming and professional creative workflows.
+#### 5.2 Broader Meta-Analyses and Systematic Reviews
 
-### 7.2. Future Technological Projections and Speculative Trends
-
-- **Improved Driver Optimizations:**
-  - Continued refinement in driver updates (addressing issues such as frametime inconsistencies) can further enhance performance in real-world gaming scenarios.
-
-- **Potential New Technologies:**
-  - Future iterations might explore even more efficient power scaling and cooling optimizations, perhaps integrating improved liquid cooling or hybrid passive-active cooling mechanisms to further lower the thermal footprint.
-  - Given the competitive dynamics, both NVIDIA and AMD may drive innovations around VRAM management and efficiency, which could significantly impact future pricing and segmentation strategies.
-
-- **AI and Upscaling Evolution:**
-  - DLSS and AI-based rendering technologies are likely to become even more integral to gaming performance enhancements, with potential upcoming improvements focusing on reducing latency further and increasing real-time fidelity.
+Umbrella reviews and meta-analyses of randomized controlled trials broaden the context by comparing intermittent fasting with continuous caloric restriction. The findings consistently indicate that intermittent fasting yields favorable body composition and metabolic outcomes, such as an increase in fat-free mass and improved lipid profiles including increased HDL cholesterol and reduced LDL cholesterol. While these benefits indirectly support long-term muscle maintenance and brain health, they leave open significant questions regarding the acute impacts on muscle performance and cognitive tasks when compared with a strict water-only fast regime.
 
 ---
 
-## 8. Conclusion
+### 6. Discussion and Future Directions
 
-The RTX 5000 series represents a robust and innovative leap in gaming GPU technology. Key takeaways include:
+#### 6.1 Integrative Interpretation of Mechanistic and Clinical Data
 
-- **Substantial Performance Increases:** A clear generational improvement over previous RTX models with substantial enhancements in 4K gaming, ray tracing, and AI-driven rendering.
+The available research suggests that water fasting, by initiating a metabolic switch and engaging both molecular and neuroendocrine pathways, can contribute to the preservation of muscle mass and improvement in cognitive function. The body’s ability to shift to a protein-sparing state following initial proteolysis, combined with enhanced autophagic clearance, supports muscle maintenance during periods of nutrient scarcity. Similarly, the upregulation of neurotrophic factors like BDNF fosters an environment conducive to neurogenesis and improved synaptic plasticity.
 
-- **Innovative Architecture and Thermal Design:** The Blackwell architecture combined with advanced cooling solutions enables such high performance while mitigating thermal concerns typically associated with higher TDP values.
+However, this approach needs to be contextualized: while water fasting provides a clear-cut metabolic challenge, it may also lead to pronounced hunger and potential mental fatigue if the fasting period is extended without any caloric buffer. This is where modified fasting protocols may offer practical benefits by sustaining blood glucose levels to moderate hunger and support cognitive engagement.
 
-- **Competitive Market Positioning:** NVIDIA’s strategy of aggressive segmentation and comprehensive performance gains reinforces its position, even as AMD’s RX 9000 series introduces competitive pressure in the mid-range segment.
+#### 6.2 Proposed Areas for Future Research
 
-- **Trade-offs in Efficiency:** The significant improvements come at the cost of increased power consumption, raising considerations for both energy efficiency and operational heat management under sustained loads.
+Several avenues warrant further investigation:
 
-This comprehensive analysis, rooted in extensive benchmarking and technical evaluations, should serve as a detailed reference for experts evaluating the RTX 5000 series for high-performance gaming. Future developments in AI rendering and thermal management are expected to further refine these impressive performance metrics, while competitive dynamics will continue to push the envelope in GPU technology.
+- **Longer-Term Cognitive Outcomes:** While current evidence suggests that changes in neurotrophic factors can potentially enhance brain health, longitudinal studies that track cognitive endpoints over months or years are needed.
+
+- **Exercise and Fasting Synergy:** Further research could delineate the optimal coupling of water fasting with specific physical training regimens for maximal muscle preservation or even hypertrophy, especially investigating resistance training protocols during refeeding periods.
+
+- **Variability in Fasting Protocols:** Future studies might also compare various forms of fasting in a more granular way. For example, exploring cyclic water fasting in conjunction with periods of modified fasting could yield insights into balancing the metabolic benefits of ketosis with the cognitive stability provided by minimal caloric intake.
+
+- **Individual Variability:** Given that genetic and epigenetic factors may influence the response to fasting, personalized fasting protocols tailored to individual metabolic profiles may be an area of considerable interest. 
+
+#### 6.3 Clinical Implications and Application
+
+For clinical practitioners and researchers, these insights underscore the need for individualized fasting protocols. The potential benefits of water fasting are clear, but the choice of fasting modality should be guided by the individual’s goals (e.g., whether immediate cognitive performance is a priority) and tolerance levels. Given the neuroprotective and muscle-sparing capacities of water fasting, its integration into lifestyle interventions could complement other therapeutic strategies, particularly in populations at risk for metabolic syndrome or neurodegenerative conditions.
 
 ---
 
-*Note: Some projections and speculations in this report are based on emerging trends and early benchmarking data. Continued monitoring of real-world performance and driver updates is recommended for an ongoing evaluation.*
+### 7. Conclusion
 
+Water fasting, by eliciting a host of adaptive responses at both the metabolic and neuroendocrine levels, presents a viable strategy for the dual objectives of muscle mass preservation and cognitive enhancement. The mechanisms—ranging from the metabolic switch towards ketogenesis and the activation of autophagy, to the upregulation of neurotrophic factors such as BDNF—underline a complex, yet ultimately protective physiological response. Comparisons with intermittent and modified fasting protocols reveal a trade-off between metabolic rigor and practicality, with modified protocols potentially offering benefits in reducing hunger and maintaining blood glucose levels.
 
-# End of Report
+In summary, while water fasting holds promise as a means to both mitigate muscle loss and enhance neurocognitive function, further research should focus on refining protocols, understanding individual variability, and establishing long-term clinical endpoints. The emerging evidence invites a more personalized approach to fasting, one that is closely integrated with exercise routines and dietary strategies to optimize both muscular and cognitive health.
 
+---
+
+*This report draws from a comprehensive body of mechanistic studies and systematic reviews that collectively enhance our understanding of how water fasting interacts with muscular physiology and cognitive function. Future research in this area holds the potential to refine these insights into practical, patient-centered interventions.*
 
 ## Sources
 
-- https://www.tomshardware.com/reviews/gpu-hierarchy,4388.html
-- https://linustechtips.com/topic/1596724-my-personally-recommended-gpu-from-rtx-5000-series/
-- https://www.forbes.com/sites/moorinsights/2025/01/23/nvidia-rtx-5090-graphics-card-review---get-neural-or-get-left-behind/
-- https://www.neogaf.com/threads/nvidia-official-geforce-rtx-50-vs-rtx-40-benchmarks-15-to-33-performance-uplift-without-dlss-multi-frame-generation.1679651/
-- https://pcoutlet.com/parts/video-cards/rtx-5070-ti-vs-rtx-5080-which-gpu-reigns-supreme
-- https://www.kitguru.net/components/graphic-cards/dominic-moass/nvidia-rtx-5080-review-efficiency-gains-but-a-performance-letdown/all/1/
-- https://forums.pcgamer.com/threads/rtx-5000-series-review-discussion.147293/
-- https://www.techradar.com/computing/gpu/nvidias-new-next-gen-gpu-benchmarks-cause-concern-among-pc-gamers-particularly-with-the-rtx-5080-but-dont-panic-yet
-- https://www.vcsolutions.com/blog/nvidia-rtx-5000-series-performance-unveiled/
-- https://gamersnexus.net/gpus/nvidia-geforce-rtx-5090-founders-edition-review-benchmarks-gaming-thermals-power
-- https://www.tomshardware.com/pc-components/gpus/nvidia-geforce-rtx-5090-review
-- https://www.nvidia.com/en-us/geforce/news/rtx-50-series-graphics-cards-gpu-laptop-announcements/
-- https://pcoutlet.com/parts/video-cards/nvidia-rtx-5000-series
-- https://press.asus.com/news/press-releases/asus-nvidia-geforce-rtx-50-series-graphics-cards/
-- https://galaxy.ai/youtube-summarizer/the-challenges-facing-nvidias-rtx-5000-series-and-amds-rx-8000-cards-VHQkBdeXzT0
-- https://www.xda-developers.com/nvidia-rtx-5000-not-what-you-think/
-- https://hardwarehunt.co.uk/blogs/pc-building-maintenance/amd-vs-nvidia-the-battle-between-radeon-rx-9000-and-rtx-5000?srsltid=AfmBOorJ59FR_9WsA8ol-7k9g_jPvGbbYgFK1MzbvOwRS05HQO8JdjoZ
-- https://hardforum.com/threads/2025-nvidia-versus-amd-ati-rematch-5000-versus-9000-series-edition.2038817/
-- https://9meters.com/technology/graphics/nvidia-shows-off-geforce-rtx-5090-fe-pcb-30-phases-of-stable-575w-power
-- https://www.technology.org/2025/01/20/nvidias-rtx-5090-a-technological-leap-beyond-the-rtx-4090/
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3946160/
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC8718030/
+- https://www.sciencedirect.com/science/article/pii/S1550413113005032
+- https://www.mdpi.com/2072-6643/14/6/1275
+- https://www.healthline.com/nutrition/water-fasting
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7824352/
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC8470960/
+- https://www.sciencedirect.com/science/article/pii/S2589537024000981
+- https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(24)00098-1/fulltext
+- https://onlinelibrary.wiley.com/doi/10.1155/2022/5653739
